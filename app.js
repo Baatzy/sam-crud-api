@@ -15,7 +15,7 @@ app.use('/artworks', artworks)
 app.use('/collections', collections)
 
 const listener = (req, res) => {
-  console.log(`Hi. I am listening on port ${port}.`)
+  console.log(`Hey buddy. I am listening to you on port ${port}.`)
 }
 
 app.listen(port, listener)
